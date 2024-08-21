@@ -290,6 +290,7 @@ jobs:
         WINDOWS:
           - {ARCH: 'x86', WINDOWS: 'win32'}
           - {ARCH: 'x64', WINDOWS: 'win64'}
+          - {ARCH: 'arm64', WINDOWS: 'win64'}
         PYTHON:
           - {VERSION: "3.7", NOXSESSION: "tests-nocoverage"}
           - {VERSION: "3.12", NOXSESSION: "tests"}
